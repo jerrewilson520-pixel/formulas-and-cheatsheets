@@ -1,0 +1,48 @@
+# C151D12: data for CHEM151. Don't run this file.
+D=(
+"PAULING chi (check your book's table)\n* H 2.20, C 2.55, N 3.04, "
+"O 3.44, F 3.98\n* Cl 3.16, Br 2.96, I 2.66, S 2.58, P 2.19\n\nMETHOD"
+": Is the molecule polar?\n1. Draw the Lewis structure and get the "
+"3D geometry (VSEPR).\n2. Mark delta+ and delta- on each bond using "
+"Deltachi; draw dipole arrows (longer for bigger Deltachi).\n3. Add "
+"the arrows as vectors (head-to-tail).\n4. Arrows cancel (symmetric "
+"shape, identical outer atoms: CO2, CH4, CCl4, SO3, BF3, SF6) -> "
+"nonpolar (mu = 0).\n5. Don't cancel (lone pairs on the central atom,"
+" or different outer atoms: H2O, NH3, SO2, O3, CHCl3, CH2O) -> polar.",
+"[3.1 EM radiation]\n* lambda*nu = c\n* E = h*nu = h*c/lambda\n* "
+"nu~ = 1/lambda\n* E = h*c*nu~\n* Per mole of photons: E_molar = "
+"N_A*h*nu (J/mol); divide by 1000 for kJ/mol\n* Shortcut: E(kJ/mol) "
+"~ 1.197x10^5/lambda(nm)\n* Shortcut: E(kJ/mol) ~ 0.01197*nu~(cm^-1)\n"
+"\n[3.2 Quantization/PES]\n* |DeltaE| = E_upper - E_lower = h*nu\n* "
+"E_I = h*nu - E_k\n\n[3.4 Valence]\n* bonds = (max valence-shell "
+"occupancy) - (# valence e^-)\n\n[3.8 Polarity]\n* |delta| = |chi_A-c"
+"hi_B|/(chi_A+chi_B)\n* |delta| = Deltachi/(2*chi_AV)\n* mu = |delta|"
+"*d\n* mu (in C*m) = |delta|*(1.602x10^-19)*d, with d in meters\n* "
+"1 Debye (D) = 3.335x10^-30 C*m",
+"[3.1 EM radiation]\n* lambda = wavelength (m)\n* nu = frequency "
+"(s^-1 = Hz)\n* c = speed of light = 3.00x10^8 m/s (3.00x10^10 cm/s "
+"for wavenumbers, lambda in cm)\n* E = energy of ONE photon (J)\n* "
+"h = Planck's constant = 6.626x10^-34 J*s\n* nu~ = wavenumber (cm^-1,"
+" IR spectra)\n* E_molar = energy per mole of photons (J/mol)\n\n[3.2"
+" Quantization/PES]\n* DeltaE = energy gap between two levels (J "
+"per photon)\n* E_upper, E_lower = energies of the upper and lower "
+"levels\n* E_I = ionization energy (energy to remove an electron)\n* "
+"E_k = kinetic energy of the ejected electron\n\n[3.3 e- config/trend"
+"s]\n* n = shell number\n* Z = atomic number (= number of e^- in "
+"a neutral atom)\n* chi = electronegativity\n\n[3.4 Valence]\n* max "
+"occupancy = 2 for H, 8 for other nonmetals\n* # valence e^- = number"
+" of valence electrons\n* bonds = number of bonds the atom usually "
+"forms (bonding capacity)\n\n[3.6 IR spectroscopy]\n* nu~ = wavenumbe"
+"r (cm^-1)\n\n[3.8 Polarity]\n* delta = partial charge in units of "
+"e (the more electronegative atom gets delta-, the other delta+, "
+"equal magnitude)\n* chi_A, chi_B = electronegativities of the two "
+"bonded atoms\n* Deltachi = their difference\n* chi_AV = their averag"
+"e\n* mu = bond dipole moment\n* d = bond length\n* D = Debye = 3.335"
+"x10^-30 C*m",
+"* Only nonmetals -> molecular compound (discrete molecules held "
+"together by IMFs)\n* Metal + nonmetal (Deltachi large, > ~2) -> "
+"ionic compound (network of ions, electrons transferred)\n* Percent "
+"ionic character > 50% -> treat as ionic (NaCl ~ 80% ionic, delta "
+"~ +/-0.8)",
+"* IMF = intermolecular force",
+)

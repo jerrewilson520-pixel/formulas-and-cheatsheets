@@ -1,0 +1,53 @@
+# C151D11: data for CHEM151. Don't run this file.
+D=(
+"IR TABLE (wavenumber cm^-1: bond / vibration)\n* ~3200-3600 (broad):"
+" O-H, N-H stretch\n* ~2800-3100: C-H stretch\n* ~2100-2300: triple "
+"bonds C#C, C#N\n* ~1600-1800: double bonds; C=O strong near 1700\n* "
+"~1350-1500: C-H bends (CH2, CH3)\n* ~1000-1300: single bonds C-O, "
+"C-N, C-C\n\nMETHOD: Structure from combustion + MS + IR\n1. % compos"
+"ition -> empirical formula (Section 2.8).\n2. M^+ peak -> molecular "
+"formula.\n3. IR bands -> which bonds exist (O-H? C=O? C#N?).\n4. "
+"Draw Lewis structures with the right bonds and valences; check MS "
+"fragments match pieces (e.g. M - 15 = lost CH3, M - 17 = lost OH).",
+"* Electron domain = a region of e^- density around the central atom:"
+" each lone pair = 1, each bond (single, double, or triple) = 1\n* "
+"Lone pairs and double bonds take more room -> squeeze nearby bond "
+"angles smaller\n* Skeletal (bond-line) drawings: a C at every corner"
+" and line end; add H's so each C has 4 bonds\n* Wedge = toward you, "
+"dashed wedge = away, plain line = in the page",
+"VSEPR TABLE (domains, lone pairs: electron geometry / molecular "
+"geometry; angle; examples)\n* 2,0: linear / linear; 180 deg; CO2, "
+"HCN\n* 3,0: trigonal planar / trigonal planar; 120 deg; CH2O, SO3, "
+"NO3^-\n* 3,1: trigonal planar / bent; < 120 deg (~117 deg); O3, "
+"SO2\n* 4,0: tetrahedral / tetrahedral; 109.5 deg; CH4, NH4^+\n* "
+"4,1: tetrahedral / trigonal pyramidal; ~107 deg; NH3, H3O^+\n* 4,2: "
+"tetrahedral / bent; ~104.5 deg; H2O, H2S\n* 5,0: trigonal bipyramida"
+"l / trigonal bipyramidal; 90 deg, 120 deg; PCl5\n* 6,0: octahedral "
+"/ octahedral; 90 deg; SF6\n\nSHORTCUT FOR ORGANIC MOLECULES\n* C "
+"with 4 single bonds -> tetrahedral ~109 deg\n* C with one double "
+"-> trigonal planar ~120 deg\n* C with a triple or two doubles -> "
+"linear 180 deg\n* N with 3 single -> pyramidal ~107 deg\n* O with "
+"2 single -> bent ~105 deg\n\nMETHOD: Geometry of any atomic center\n"
+"1. Draw the Lewis structure.\n2. Count domains around that atom "
+"(lone pairs + bonded atoms).\n3. Domains -> electron geometry; then "
+"lone pairs -> molecular geometry (from the table).\n4. Adjust angles"
+": smaller next to lone pairs or double bonds.\n5. Big molecules: "
+"repeat one center at a time.\n\nFUNCTIONAL GROUPS (class: group; "
+"structure)\n* Alcohol: hydroxyl; R-O-H\n* Aldehyde: aldehyde; R-CH=O"
+"\n* Ketone: ketone; R_1-C(=O)-R_2\n* Carboxylic acid: carboxyl; "
+"R-C(=O)-O-H\n* Ether: alkoxy; R_1-O-R_2\n* Amine: amine; R-N(R_1)(R_"
+"2), R's can be H\n* Aromatic: phenyl; 6-carbon ring with alternating"
+" double bonds",
+"* |delta| = |chi_A-chi_B|/(chi_A+chi_B)\n* |delta| = Deltachi/(2*chi"
+"_AV)\n* mu = |delta|*d\n* mu (in C*m) = |delta|*(1.602x10^-19)*d, "
+"with d in meters\n* 1 Debye (D) = 3.335x10^-30 C*m",
+"* delta = partial charge in units of e (the more electronegative "
+"atom gets delta-, the other delta+, equal magnitude)\n* chi_A, chi_B"
+" = electronegativities of the two bonded atoms\n* Deltachi = their "
+"difference\n* chi_AV = their average\n* mu = bond dipole moment\n* "
+"d = bond length\n* D = Debye = 3.335x10^-30 C*m",
+"* Dipole arrow points from delta+ toward delta- (direction electron "
+"density shifts)\n* C-H bonds (Deltachi ~ 0.4) treated as nonpolar "
+"-> hydrocarbon chains are nonpolar\n* Electrostatic potential maps: "
+"red = negative (e^- rich), blue = positive (e^- poor)",
+)
