@@ -31,16 +31,28 @@ CHEM 151 FORMULAS (main menu)
 '- Screen setup
 ```
 
-## Install
+## Install (send it to the TI-84 Evo)
 
-1. Install **TI Connect CE** and connect the calculator with USB.
-2. Send **every** `.py` file in the [`TI84EVO/`](TI84EVO) folder:
-   `CHEM151.py` plus the data files `C151D01.py` ... `C151D22.py`.
-   Drag them all onto the calculator in one go (TI Connect CE turns them
-   into Python files on the calculator).
-3. On the calculator, open the **Python** app, pick `CHEM151`, and run it.
+The TI-84 Evo uses **TI Connect Evo**, a website at
+[connectevo.ti.com](https://connectevo.ti.com). There's nothing to install,
+but the browser has to support WebUSB, so use **Chrome or Edge** on a
+computer or Chromebook. Safari and Firefox won't work.
+
+1. Download the files: either the zip of the `TI84EVO/` folder, or every
+   `.py` file in [`TI84EVO/`](TI84EVO). If you have the zip, unzip it
+   first, because the website needs the `.py` files themselves.
+2. Turn on the calculator and plug it into the computer with its USB-C cable.
+3. Go to **connectevo.ti.com** in Chrome or Edge and connect to the
+   calculator. Click **Allow** if the browser asks for USB access.
+4. Choose to send files to the calculator, then select **all 23** `.py`
+   files: `CHEM151.py` and `C151D01.py` to `C151D22.py`. You can select them
+   all at once with Ctrl+A (Cmd+A on a Mac) in the file picker.
+5. On the calculator, open the **Python** app, pick `CHEM151`, and run it.
    The `C151Dxx` files are data only. Don't run them, just keep them on the
    calculator.
+
+(Older TI-84 Plus CE Python calculators use the TI Connect CE desktop
+program instead. Drag all the `.py` files onto the calculator there.)
 
 ## Using it
 
